@@ -1,0 +1,78 @@
+.header .header-2 .flex .logo {
+    font-size: 2.5rem;
+    color: var(--red);
+}
+
+.header .header-2 .flex .navbar a {
+    margin: 0 1rem;
+    font-size: 2rem;
+    color: var(--light-color);
+    padding: 15px;
+}
+
+.header .header-2 .flex .navbar a:hover{
+    color: var(--white);
+    background-color: var(--red);
+    text-decoration: none;
+}
+
+.header .header-2 .flex .icons > *:hover {
+    color: var(--red);
+  }
+
+  .heading p a {
+    color: var(--red);
+}
+
+
+.heading {
+    min-height: 20rem;
+}
+
+
+.shopping-cart .box-container .box{
+    border: 0;
+    border-radius: 0;
+}
+
+.shopping-cart .box-container .box input[type="number"] {
+    margin: rem 0;
+    border: var(--border);
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    color: var(--black);
+    width: 7rem;
+    border-radius: 0;
+}
+
+.option-btn {
+    background-color: var(--red);
+}
+
+.btn, .option-btn, .delete-btn, .white-btn {
+    display: inline-block;
+    padding: 1.22rem 3rem;
+    cursor: pointer;
+    color: var(--white);
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    border-radius: 0;
+}
+
+.white-btn, .btn {
+    background-color: var(--red);
+}
+
+.footer .box-container .box a:hover {
+    color: var(--red);
+    text-decoration: underline;
+  }
+
+  .footer .box-container .box p i, .footer .box-container .box a i {
+    color: var(--red);
+    padding-right: 0.5rem;
+}
+
+.footer .credit span {
+    color: var(--red);
+}
